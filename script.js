@@ -1,174 +1,63 @@
 TinyTurtle.apply(window);
     stamp();
 
-function square(x){
-    forward(x);
-    right(90);
-    forward(x);
-    right(90);
-    forward(x);
-    right(90);
-    forward(x);
-    right(90);
-    forward(x);    }
-// Type your function call below
-square(10);
-
-function triangle(y){
-    right(120);
-    forward(y);
-    right(120);
-    forward(y);
-    right(120);
-    forward(y);
-    right(120);
-    forward(y);
-    right(330);     }
-// Type your function call below
-triangle(10);
-
-function house(z){
-    forward(z);
-    right(90);
-    forward(z);
-    right(90);
-    forward(z);
-    right(90);
-    forward(z);
-    right(90);
-    forward(z);
-    right(60);
-    forward(z);
-    right(60);
-    forward(z);
-    right(180);
-    forward(z);
-    right(60);      }
-// Type your function call below
-house(10);
-
-function pentagon(q){
-    right(72);
-    forward(q);
-    right(72);
-    forward(q);
-    right(72);
-    forward(q);
-    right(72);
-    forward(q);
-    right(72);
-    forward(q);
-    right(72);
-    forward(q);    }
-// Type your function call below
-pentagon(10);
-
-function hexagon(r){
-    right(60);
-    forward(r);
-    right(60);
-    forward(r);
-    right(60);
-    forward(r);
-    right(60);
-    forward(r);
-    right(60);
-    forward(r);
-    right(60);
-    forward(r);    }
-// Type your function call below
-hexagon(10);
+function square(){
+    for(var i = 0; i<5; i = i+1){
+        forward(50);
+        right(90);
+    }}
     
+function triangle(){
+    for(var i = 0; i<3; i = i+1){
+        forward(50);
+        right(120);
+    }}
+
+function house(){
+    for(var i = 0; i<1; i = i+1){
+        square();
+        forward(50);
+        right(180);
+        triangle();
+        
+    }}
+
+
+function pentagon(){
+    for(var i = 0; i<6; i = i+1){
+        forward(50);
+        right(72);
+    }}
+
+
+function hexagon(){
+    for(var i = 0; i<7; i = i+1){
+        forward(50);
+        right(60);
+    }} 
+    
+
 function circle(){
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);
-    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);    right(1); forward(1);       }
-// Type your function call below
-circle(1);
+    for(var i = 0; i<361; i = i+1){
+        forward(1);
+        right(1);
+    }}
+
+
+function fracart(){
+    for(var i = 0; i<10; i=i+1){
+        square();
+        right(40);
+    }}
+
+function art(){
+    for(var i = 0; i<1; i = i+1){
+        
+        for(var j=0; j<500; j=j+5){
+            forward(j);
+            right(90);
+        }
+        
+    }
+}
+art();
